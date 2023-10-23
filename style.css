@@ -1,0 +1,315 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  nav#menu-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+}
+
+nav#menu-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav#menu-bar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav#menu-bar ul li:last-child {
+    margin-right: 0;
+}
+
+nav#menu-bar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+  .sticky {
+    position: sticky;
+    top: 0;
+}
+  
+  .description {
+    text-align: center;
+    padding: 3rem;
+  }
+  
+  .description h1 {
+    font-size: 36px;
+    margin-bottom: 1rem;
+  }
+  
+  .description p {
+    font-size: 18px;
+  }
+  
+  .buttons {
+    margin-top: 2rem;
+  }
+  
+  .signup-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  
+  .feedback {
+    background-color: #f5f5f5;
+    padding: 3rem;
+  }
+  
+  .feedback h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  
+  .feedback-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .feedback-form input,
+  .feedback-form textarea {
+    margin-bottom: 1rem;
+    padding: 10px;
+  }
+  
+  .feedback-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .feedback-form button:hover {
+    background-color: #555;
+  }
+  
+.feedback_message{
+  margin-top: 8%;
+  text-align: center;
+}
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover
+  {
+    background-color: #555;
+  }
+
+.passenger_info{
+  margin-top: 8%;
+  text-align: center;
+}
+
+.successmsg
+{
+  color: green;
+  font-size: 18px;
+  text-align: center;
+}
+
+.errmsg
+{
+  color: red;
+}
+
+
+.profile-container {
+  max-width: 25%;
+  margin: 60px auto;
+  /* margin: auto; */
+  background-color: #ffffff;
+  /* border-radius: 10px; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 95vh;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-name {
+  margin: 10px 0;
+  color: #333333;
+}
+
+.profile-email {
+  color: #777777;
+}
+
+
+.profile-button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.profile-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.site-footer {
+  background-image: url("footer-bg.jpg");
+  background-size: 100% auto; /* Full width, maintain aspect ratio */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-color: #2c3f46; /* Add a semi-transparent overlay */
+  color: #ffffff;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-links li {
+  margin-right: 10px;
+}
+
+.social-links img {
+  width: 24px;
+  height: 24px;
+}
+
+.site-footer p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #999999;
+}
+
+#map {
+  max-width: 75%;
+  height: 80vh;
+  display: block;
+  margin-left: 20%;
+}
+
+.ride_request_container
+{
+  margin-bottom: 20px;
+  margin-left: 20%;
+}
+
+.rider_response{
+  margin-left: 20%;
+}
+
+
+.ride_request_status_containter{
+  margin-left: 20%;
+}
+
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: #dddddd;
+}
+
+.group_form input{
+  margin: 10px;
+}
